@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "name": "@types/react-busmap-map-gl",
+    "version": "6.1.9999",
+    "projects": [
+        "https://github.com/PhenikaaMaaS/react-map-gl#readme"
+    ],
+    "dependencies": {
+        "@types/geojson": "*",
+        "@types/busmap-gl": "*",
+        "@types/react": "*",
+        "@types/viewport-mercator-project": "*"
+    },
+    "devDependencies": {
+        "@types/react-map-gl": "workspace:."
+    },
+    "owners": [
+        {
+            "name": "busmap",
+            "githubUsername": "busmap"
+        }
+    ]
+}
